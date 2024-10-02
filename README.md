@@ -7,9 +7,11 @@ mkdir data
 ```
 
 
-## Preprocess
-Download VocalSet directory from google drive
-Put the directory to 'data' directory
+## Download dataset
+You can download dataset from [google drive](https://drive.google.com/drive/folders/1tAVbPfEgRVE4_f7dyRPW3n67UyUkFbut?usp=drive_link).
+
+Put the `VocalSet` directory to `data` directory
+
 
 
 ## Extract Features 
@@ -23,5 +25,9 @@ python . extract -c ./configs/mert/MERT-v1-95M/VocalSetT.yaml
 python . probe -c ./configs/mert/MERT-v1-95M/VocalSetT.yaml
 ```
 
+### Contact
+Please contact me by email if you have any questions.
+
+`js_choi@korea.ac.kr`
 
 
